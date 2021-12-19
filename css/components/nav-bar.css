@@ -30,6 +30,7 @@
 
 .nav__bottom-list .nav__btn {
   margin-top: 30px;
+  cursor: pointer;
 }
 
 .nav i {
@@ -39,4 +40,20 @@
 
 .nav i:hover {
   color: white;
+}
+
+.nav__friends-screen .fa-user,
+.nav__chats-screen .fa-comment,
+.nav__more-screen .fa-ellipsis-h {
+  color: white;
+}
+
+.nav__btn {
+  position: relative;
+}
+
+.nav__notification {
+  position: absolute;
+  right: -10px;
+  top: -10px;
 }
