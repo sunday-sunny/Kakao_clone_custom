@@ -4,10 +4,24 @@
 @import "variables.css";
 
 /* components */
+@import "./components/top-bar.css";
+@import "./components/nav-bar.css";
+@import "./components/screen-header.css";
+@import "./components/user-component.css";
+@import "./components/friend-component.css";
 
 /* screens */
 @import "./screens/login.css";
+@import "./screens/friends.css";
 
 body {
   font-family: "Source Sans Pro", sans-serif;
+  background-color: var(--background-black);
+}
+
+.main-screen {
+  margin-left: 70px;
+  margin-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
 }

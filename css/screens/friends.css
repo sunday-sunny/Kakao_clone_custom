@@ -1,0 +1,23 @@
+.friends-screen__optionbox {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.friends-screen__optionbox > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0px;
+}
+
+.friends-screen__optionbox span,
+.friends-screen__optionbox i {
+  color: var(--letter-grey);
+}
+
+.friends-screen__optionbox i {
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+/* .user-component:hover {
+  background-color: var(--main-black);
+} */

@@ -1,0 +1,14 @@
+.top-bar {
+  padding: 10px 10px;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.top-bar__icons i {
+  margin-left: 10px;
+  color: white;
+}

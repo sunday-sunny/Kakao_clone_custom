@@ -1,4 +1,4 @@
-body {
+.welcom-body {
   background-image: url(../../images/star-bg.svg);
   background-color: var(--main-black);
   display: flex;

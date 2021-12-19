@@ -1,0 +1,18 @@
+.screen-header {
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.screen-header__title {
+  color: white;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.screen-header__icons i {
+  color: white;
+  font-size: 18px;
+  margin-left: 20px;
+}

@@ -1,7 +1,9 @@
 :root {
   --main-black: #24292e;
+  --background-black: #363940;
   --main-purple: #6f42c1;
   --deep-purple: #592fa7;
   --main-blue: #0366d6;
   --main-green: #28a745;
+  --letter-grey: rgba(255, 255, 255, 0.7);
 }
