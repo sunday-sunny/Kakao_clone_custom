@@ -9,10 +9,12 @@
 @import "./components/screen-header.css";
 @import "./components/user-component.css";
 @import "./components/friend-component.css";
+@import "./components/badge.css";
 
 /* screens */
 @import "./screens/login.css";
 @import "./screens/friends.css";
+@import "./screens/more.css";
 
 body {
   font-family: "Source Sans Pro", sans-serif;
