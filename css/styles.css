@@ -10,6 +10,7 @@
 @import "./components/user-component.css";
 @import "./components/friend-component.css";
 @import "./components/badge.css";
+@import "./components/media-screen.css";
 
 /* screens */
 @import "./screens/login.css";
