@@ -1,5 +1,5 @@
 .private-box {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: var(--middle-black);
   border-radius: 7px;
   height: 130px;
   display: flex;

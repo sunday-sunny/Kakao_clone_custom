@@ -11,6 +11,7 @@
   align-items: center;
   padding: 50px 0px;
   background-color: var(--main-black);
+  z-index: 10;
 }
 
 .nav__top-list,

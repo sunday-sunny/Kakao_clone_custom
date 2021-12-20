@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Chat - KaKao Talk</title>
+</head>
+<body class="chat-body">
+    
+    <!-- Top-bar -->
+    <div class="top-bar">
+        <div class="top-bar__icons">
+            <i class="fas fa-minus" ></i>
+            <i class="far fa-square" ></i>
+            <i class="fas fa-times" ></i>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav nav__chat-screen">
+        <ul class="nav__top-list">
+            <!-- nav__friends -->
+            <li class="nav__btn">
+                <a href="friends.html">
+                    <i class="fas fa-user fa-2x"></i>
+                </a>
+            </li>
+            <!-- nav__chats -->
+            <li class="nav__btn">
+                <a href="chats.html">
+                    <span class="nav__notification badge">3</span>
+                    <i class="fas fa-comment fa-2x"></i>
+                </a>
+            </li>
+            <!-- nav__more -->
+            <li class="nav__btn">
+                <a href="more.html">
+                    <i class="fas fa-ellipsis-h fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+        <!-- nav__bottom-icons -->
+        <ul class="nav__bottom-list">
+            <li class="nav__btn">
+                <i class="far fa-smile fa-lg"></i>
+            </li>
+            <li class="nav__btn">
+                <i class="far fa-bell fa-lg"></i>
+            </li>
+            <li class="nav__btn">
+                <i class="fas fa-cog fa-lg"></i>
+            </li>
+
+        </ul>
+    </nav>    
+    
+    <!-- Chat-header -->
+    <header class="chat-header">
+        <div class="user-component">
+            <!-- Left column -->
+            <div class="user-component__column">
+                <img src="https://octodex.github.com/images/octonaut.jpg" class="user-component__avatar">
+                <div class="user-component__text">
+                    <h4 class="friend-component__title">Space Octocat</h4>
+                    <div class="friend-component__chat-icons">
+                        <span><i class="fas fa-inbox"></i></span>
+                        <span>|</span>
+                        <span><i class="fas fa-search"></i></span>
+                    </div>
+                </div>
+            </div>
+            <!-- Right column -->
+            <div class="user-component__column">
+                <div class="friend-component__info-icons">
+                    <span><i class="fas fa-bell"></i></span>
+                    <span><i class="fas fa-bars"></i></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-screen chat-screen">
+
+        <!-- Time stamp -->
+        <div class="chat-timestamp">
+            <div class="chat-timestamp__line">
+                <span>Sunday, December 19, 2021</span>
+            </div>
+        </div>
+
+        <!-- Friend message -->
+        <div class="message-row">
+            <img src="https://octodex.github.com/images/octonaut.jpg" class="user-component__avatar user-component__avatar--sm">
+            <div class="message-row__content">
+                <span class="message__author">Space Octocat</span>
+                <div class="message__info">
+                    <span class="message__bubble">Would you like to go to concert this weekend?</span>
+                    <span class="message__time">PM 22:21</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- My message -->
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">What kind of music?</span>
+                    <span class="message__time">PM 22:25</span>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+
+    <!-- Font Awesom Script -->
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+</html>

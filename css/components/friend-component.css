@@ -8,3 +8,37 @@
   margin-top: 8px;
   font-size: 14px;
 }
+
+.friend-component__chat-icons {
+  color: rgba(255, 255, 255, 0.3);
+  margin-top: 12px;
+  font-size: 12px;
+}
+
+.friend-component__chat-icons span {
+  margin-right: 7px;
+}
+
+.friend-component__info-icons {
+  color: rgba(255, 255, 255, 0.3);
+  display: flex;
+  align-items: flex-end;
+}
+
+.friend-component__info-icons span {
+  display: flex;
+  width: 25px;
+  height: 25px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-left: 7px;
+  font-size: 12px;
+  background-color: var(--main-black);
+}
+
+.friend-component__chat-icons span:hover,
+.friend-component__info-icons span:hover {
+  color: white;
+  cursor: pointer;
+}
