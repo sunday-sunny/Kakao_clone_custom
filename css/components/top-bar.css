@@ -11,5 +11,9 @@
 
 .top-bar__icons i {
   margin-left: 10px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.top-bar__icons i:hover {
   color: white;
 }

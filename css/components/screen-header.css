@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .screen-header__title {
@@ -11,8 +12,27 @@
   font-weight: 600;
 }
 
+.screen-header__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .screen-header__icons i {
-  color: white;
+  color: var(--letter-grey);
   font-size: 22px;
-  margin-left: 20px;
+  margin-left: 3px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.screen-header__icons i:hover {
+  color: white;
+  background-color: var(--middle-black);
+  border-radius: 50%;
 }
