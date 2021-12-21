@@ -3,6 +3,10 @@
   padding-bottom: 20px;
 }
 
+.user-component:hover:not(.own-component) {
+  background-color: var(--middle-black);
+}
+
 .user-component,
 .user-component__column:first-child {
   display: flex;
@@ -13,6 +17,8 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  /* background-color: aqua; */
+  padding-right: 10px;
 }
 
 .user-component__avatar {
